@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import "../../assets/stylesheets/Main.css";
 import "./Home.css";
 
-const headerOptions = ["Interests", "Projects", "Contact Me"]
+const headerOptions = ["Interests", "Projects", "Contact Me"];
+const introOne = "Hi, I'm Imad";
+const introTwo = "I like elegant design and modular code"
 
 class Home extends Component {
     constructor(props) {
@@ -23,6 +25,26 @@ class Home extends Component {
                 </div>
 
                 <div className="body fb col">
+                    
+                    <div className="fb row intro-container">
+                        <div className="fb intro-text-container">
+                            <div className="animated-intro-text-container">
+                                <p className="intro-text">{introOne}</p>
+                            </div>
+                            
+                        </div>
+                        <div className="fb col intro-image-container">
+
+                        </div>
+                        <div className="fb col intro-links-container">
+
+                        </div>
+                    </div>
+
+                    <div className="fb col rest-container">
+
+                    </div>
+
 
                 </div>
             </div>

@@ -1,0 +1,31 @@
+.main {
+    flex: 1;
+    width: 100%;
+    /* width: 1420px; */
+    height: 1080px;
+}
+
+.header {
+    flex: 0.1;
+    border-bottom: thick double black;
+    background-color: #fff;
+}
+
+.body {
+    flex: 0.9;
+}
+
+.option-container {
+    flex: 0.33
+}
+
+/* Text Styles */
+.option {
+    font-size: 2.5rem;
+}
+
+.option::selection {
+    color: blue
+}
+
+/* other pseudos include ::first-line and ::first-letter */
